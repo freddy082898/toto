@@ -1,0 +1,1 @@
+Appuie sur Entrée pour aller à la ligne, puis remplis tes produits : savon, huile et riz, avec leur quantité et leur prix.

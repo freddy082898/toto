@@ -1,0 +1,1 @@
+Appuie sur la touche Tab pour passer à la case suivante. Tape Quantité, puis Prix unitaire, puis Total.

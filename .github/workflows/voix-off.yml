@@ -1,0 +1,37 @@
+name: Voix off IA
+on:
+  push:
+    branches: [main]
+    paths: ['voix/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install edge-tts
+      - name: Generer les MP3
+        run: |
+          VOICE=$(cat voix/voice.txt)
+          RATE=$(cat voix/rate.txt 2>/dev/null || echo "+0%")
+          mkdir -p out
+          for f in voix/textes/*.txt; do
+            n=$(basename "$f" .txt)
+            for v in $VOICE; do
+              edge-tts --voice "$v" --rate="$RATE" -f "$f" --write-media "out/${v}_${n}.mp3"
+            done
+          done
+          ls -la out
+      - name: Publier sur la branche audio
+        run: |
+          git config user.name "voix-off-bot"; git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan audio-tmp
+          git rm -rf --cached . >/dev/null
+          find . -mindepth 1 -maxdepth 1 ! -name out ! -name .git -exec rm -rf {} +
+          mv out/* . && rmdir out
+          git add -A && git commit -qm "audio $(date -u +%FT%T)"
+          git push -f origin audio-tmp:audio
