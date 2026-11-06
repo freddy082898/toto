@@ -1,0 +1,1 @@
+Ajoute un sous-titre avec le format de ton produit. Place-le sous le titre, et mets-le en jaune, pour qu'il ressorte.
