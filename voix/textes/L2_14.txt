@@ -1,0 +1,1 @@
+Si le bouton reste grisé, c'est qu'un champ obligatoire est vide. Regarde les petites étoiles rouges.

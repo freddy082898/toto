@@ -1,0 +1,1 @@
+Dans cette leçon, tu vas créer ton compte Chariow et ta boutique, avec son nom, sa description et sa devise.

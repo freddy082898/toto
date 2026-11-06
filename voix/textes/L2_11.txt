@@ -1,0 +1,1 @@
+Dernière étape : ton pays, et la devise de ta boutique. La devise, c'est la monnaie de tes prix. Si tes clients sont surtout en Afrique de l'Ouest, choisis le franc CFA. Pas de panique : tes clients pourront payer depuis n'importe quel pays. Chariow convertit automatiquement.
