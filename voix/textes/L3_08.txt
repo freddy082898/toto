@@ -1,0 +1,1 @@
+Astuce : affiche un prix normal, et un prix de lancement plus bas, pendant quelques jours. Ça donne une vraie raison d'acheter maintenant. Chariow l'affiche avec le prix barré.

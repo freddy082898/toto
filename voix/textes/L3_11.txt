@@ -1,0 +1,1 @@
+À toi : écris le titre de ton produit en une phrase, et calcule ton prix avec le calculateur fourni. Prochaine leçon : on le met en ligne.
