@@ -1,1 +1,1 @@
-Ajoute un sous-titre avec le format de ton produit. Place-le sous le titre, et mets-le en jaune, pour qu'il ressorte.
+Ajoute maintenant un sous-titre : clique sur « Ajouter un sous-titre », et écris le format de ton produit. Par exemple : checklist, deux pages, PDF. Place-le sous le titre, en le faisant glisser. Puis change sa couleur : clique sur la couleur du texte, tape le code du jaune, et choisis-le. Il ressort bien sur le fond vert.

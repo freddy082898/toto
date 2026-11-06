@@ -1,1 +1,1 @@
-Ouvre Canva, et clique sur « Créer ». Choisis « Dimension personnalisée ». Tape mille deux cents en largeur, et mille deux cents en hauteur. Puis clique sur « Créer un design ».
+Ouvre Canva, et clique sur le bouton « Créer », en haut à gauche. Dans la fenêtre, choisis « Dimension personnalisée », tout en bas de la liste. Tape mille deux cents dans la case largeur, puis mille deux cents dans la case hauteur. L'unité reste en pixels. Puis clique sur « Créer un design » : une page blanche et carrée s'ouvre.
