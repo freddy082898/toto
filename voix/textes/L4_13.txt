@@ -1,0 +1,1 @@
+Récap : le type Fichiers, un nom qui dit le résultat, un prix et un prix promo, une description en quatre parties, et ton fichier.

@@ -1,0 +1,1 @@
+Dans cette leçon, tu vas créer ton produit : son nom, son prix, sa description, et le fichier que ton client recevra.

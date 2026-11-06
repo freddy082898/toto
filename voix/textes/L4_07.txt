@@ -1,0 +1,1 @@
+Ensuite, le prix : deux mille. Et le prix promo : mille cinq cents. Le prix promo s'affiche à côté de l'ancien prix, barré.
