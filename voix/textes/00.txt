@@ -1,1 +1,0 @@
-Leçon 1 : ton premier tableau Excel, avec un total qui se calcule tout seul.

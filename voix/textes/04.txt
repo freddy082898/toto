@@ -1,1 +1,0 @@
-Maintenant, la formule. Clique en D2 et tape : égal, B2, étoile, C2. Une formule commence toujours par le signe égal.
