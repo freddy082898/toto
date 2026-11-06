@@ -14,18 +14,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - run: pip install edge-tts
-      - name: Generer les MP3
-        run: |
-          VOICE=$(cat voix/voice.txt)
-          RATE=$(cat voix/rate.txt 2>/dev/null || echo "+0%")
-          mkdir -p out
-          for f in voix/textes/*.txt; do
-            n=$(basename "$f" .txt)
-            for v in $VOICE; do
-              edge-tts --voice "$v" --rate="$RATE" -f "$f" --write-media "out/${v}_${n}.mp3"
-            done
-          done
-          ls -la out
+      - name: Generer les MP3 et le minutage
+        run: python voix/tts.py && ls -la out
       - name: Publier sur la branche audio
         run: |
           git config user.name "voix-off-bot"; git config user.email "actions@users.noreply.github.com"
