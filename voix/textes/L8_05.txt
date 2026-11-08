@@ -1,0 +1,1 @@
+Pour garder le contrôle, active « Utilisations maximum », et mets dix. Le code s'arrête après dix utilisations. Active aussi « Utilisations maximum par client », et mets un.

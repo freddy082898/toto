@@ -1,0 +1,1 @@
+Dans cette leçon, tu vas créer un code promo, le limiter pour garder le contrôle, et trouver tes premiers testeurs.
